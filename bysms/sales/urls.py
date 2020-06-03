@@ -1,6 +1,10 @@
 # coding = utf-8
 # author = '王瑞'
 
+from django.conf.urls import url
+from .views import  *
 
-if __name__ == '__main__':
-    pass
+
+urlpatterns = [
+    url('', index)
+]
