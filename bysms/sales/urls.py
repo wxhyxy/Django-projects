@@ -6,5 +6,6 @@ from .views import  *
 
 
 urlpatterns = [
-    url('', index)
+    # url('', index),
+    url('customer/', listcustomer)
 ]
