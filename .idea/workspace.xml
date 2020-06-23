@@ -28,9 +28,13 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Django-projects" />
+  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="HTML File" />
         <option value="Python Script" />
       </list>
     </option>
@@ -49,13 +53,14 @@
   </component>
   <component name="PropertiesComponent">
     <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../爬虫/百度知道.py" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.百度知道爬取标题和链接 (1)">
+  <component name="RunManager" selected="Python.58同城titleurl爬虫">
     <configuration name="百度知道爬取标题和链接 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -78,28 +83,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="百度知道" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="projects" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../../爬虫" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../爬虫/百度知道.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="百度知道爬取标题和链接" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="projects" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -114,6 +97,50 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../../test/tieba/百度知道爬取标题和链接.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="58同城titleurl爬虫" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/58同城titleurl爬虫.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="爬IP验证是否有效" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="projects" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/爬IP验证是否有效.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -168,10 +195,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.58同城titleurl爬虫" />
+        <item itemvalue="Python.爬IP验证是否有效" />
         <item itemvalue="Python.百度知道爬取标题和链接 (1)" />
         <item itemvalue="Python.test" />
         <item itemvalue="Python.gookie" />
-        <item itemvalue="Python.百度知道" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +217,14 @@
       <workItem from="1591170482398" duration="5648000" />
       <workItem from="1591231119176" duration="14434000" />
       <workItem from="1591316898291" duration="3063000" />
-      <workItem from="1591578223220" duration="1022000" />
+      <workItem from="1591578223220" duration="13283000" />
+      <workItem from="1591661197851" duration="9123000" />
+      <workItem from="1591759514884" duration="2204000" />
+      <workItem from="1591836301201" duration="1165000" />
+      <workItem from="1592615379620" duration="34000" />
+      <workItem from="1592615428449" duration="1389000" />
+      <workItem from="1592874146119" duration="51000" />
+      <workItem from="1592874199104" duration="5542000" />
     </task>
     <servers />
   </component>
@@ -200,40 +235,66 @@
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="771" y="295" key="FileChooserDialogImpl" timestamp="1591176280395">
+    <state x="802" y="371" key="#com.intellij.ide.actions.DebugLogConfigureAction" timestamp="1592616082366">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="771" y="295" key="FileChooserDialogImpl/62.0.1858.1080@62.0.1858.1080" timestamp="1591176280395" />
-    <state width="1815" height="373" key="GridCell.Tab.0.bottom" timestamp="1591265337829">
+    <state x="802" y="371" key="#com.intellij.ide.actions.DebugLogConfigureAction/62.0.1858.1080@62.0.1858.1080" timestamp="1592616082366" />
+    <state x="585" y="122" key="CommitChangelistDialog2" timestamp="1591598643469">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="373" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1591265337829" />
-    <state width="1815" height="373" key="GridCell.Tab.0.center" timestamp="1591265337829">
+    <state x="585" y="122" key="CommitChangelistDialog2/62.0.1858.1080@62.0.1858.1080" timestamp="1591598643469" />
+    <state x="771" y="295" key="FileChooserDialogImpl" timestamp="1592874193787">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="373" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1591265337829" />
-    <state width="1815" height="373" key="GridCell.Tab.0.left" timestamp="1591265337828">
+    <state x="771" y="295" key="FileChooserDialogImpl/62.0.1858.1080@62.0.1858.1080" timestamp="1592874193787" />
+    <state width="1815" height="373" key="GridCell.Tab.0.bottom" timestamp="1591612800900">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="373" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1591265337828" />
-    <state width="1815" height="373" key="GridCell.Tab.0.right" timestamp="1591265337829">
+    <state width="1815" height="373" key="GridCell.Tab.0.bottom/62.0.1858.1080@62.0.1858.1080" timestamp="1591612800900" />
+    <state width="1815" height="373" key="GridCell.Tab.0.center" timestamp="1591612800900">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state width="1815" height="373" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1591265337829" />
-    <state x="492" y="182" key="SettingsEditor" timestamp="1591578601023">
+    <state width="1815" height="373" key="GridCell.Tab.0.center/62.0.1858.1080@62.0.1858.1080" timestamp="1591612800900" />
+    <state width="1815" height="373" key="GridCell.Tab.0.left" timestamp="1591612800900">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="492" y="182" key="SettingsEditor/62.0.1858.1080@62.0.1858.1080" timestamp="1591578601023" />
-    <state x="689" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1591578224531">
+    <state width="1815" height="373" key="GridCell.Tab.0.left/62.0.1858.1080@62.0.1858.1080" timestamp="1591612800900" />
+    <state width="1815" height="373" key="GridCell.Tab.0.right" timestamp="1591612800900">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="689" y="364" key="com.intellij.ide.util.TipDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1591578224531" />
+    <state width="1815" height="373" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1591612800900" />
+    <state x="492" y="182" key="SettingsEditor" timestamp="1591688207818">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="492" y="182" key="SettingsEditor/62.0.1858.1080@62.0.1858.1080" timestamp="1591688207818" />
+    <state x="689" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1592874185670">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="689" y="364" key="com.intellij.ide.util.TipDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1592874185670" />
+    <state x="783" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1591598651176">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="783" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/62.0.1858.1080@62.0.1858.1080" timestamp="1591598651176" />
+    <state x="542" y="276" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1591759553211">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="542" y="276" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/62.0.1858.1080@62.0.1858.1080" timestamp="1591759553211" />
+    <state x="154" y="92" width="1674" height="896" key="dock-window-1" timestamp="1591601663994">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="154" y="92" width="1674" height="896" key="dock-window-1/62.0.1858.1080@62.0.1858.1080" timestamp="1591601663994" />
+    <state x="437" y="327" width="1674" height="896" key="dock-window-2" timestamp="1591601663995">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="437" y="327" width="1674" height="896" key="dock-window-2/62.0.1858.1080@62.0.1858.1080" timestamp="1591601663995" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Django_projects$urls.coverage" NAME="urls Coverage Results" MODIFIED="1591175228101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bysms/sales" />
     <SUITE FILE_PATH="coverage/Django_projects$test.coverage" NAME="test Coverage Results" MODIFIED="1591233656759" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../test/tieba" />
     <SUITE FILE_PATH="coverage/Django_projects$gookie.coverage" NAME="gookie Coverage Results" MODIFIED="1591232711809" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Django_projects$58titleurl.coverage" NAME="58同城titleurl爬虫 Coverage Results" MODIFIED="1591607280975" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Django_projects$__1_.coverage" NAME="百度知道爬取标题和链接 (1) Coverage Results" MODIFIED="1591238701526" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../新建文件夹" />
+    <SUITE FILE_PATH="coverage/Django_projects$IP.coverage" NAME="爬IP验证是否有效 Coverage Results" MODIFIED="1591600873898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Django_projects$.coverage" NAME="百度知道爬取标题和链接 Coverage Results" MODIFIED="1591237859288" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../../test/tieba" />
   </component>
 </project>

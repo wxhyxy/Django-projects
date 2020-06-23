@@ -2,28 +2,36 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>index</title>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
+    <title>{{ title }}</title>
     <style>
-        table {
-            border-collapse: collapse;
-        }
-        th, td{
-            padding: 8px;
-            text-align: left;
-            border-bottom: 1px solid #ddd;
-        }
-    </style>
+table {
+    border-collapse: collapse;
+}
+th, td {
+    padding: 8px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+}
+</style>
 </head>
+
 <body>
-<table>
-    <tr>
-        <th>ID</th>
+        <table>
+        <tr>
+        <th>id</th>
         <th>姓名</th>
         <th>电话号码</th>
         <th>地址</th>
-    </tr>
-</table>
+        </tr>
+            {% for q in qs %}
+            <tr>
+                <td>{{ q.id }}</td>
+                <td>{{ q.user_name }}</td>
+                <td>{{ q.user_phone }}</td>
+                <td>{{ q.user_addr }}</td>
+            </tr>
+            {% endfor %}
+        </table>
 </body>
-
 </html>
