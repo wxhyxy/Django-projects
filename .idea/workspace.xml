@@ -58,7 +58,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RunManager" selected="Python.58同城titleurl爬虫">
     <configuration name="百度知道爬取标题和链接 (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
@@ -226,7 +226,7 @@
       <workItem from="1592874146119" duration="51000" />
       <workItem from="1592874199104" duration="12114000" />
       <workItem from="1592959220826" duration="143000" />
-      <workItem from="1592959526215" duration="2142000" />
+      <workItem from="1592959526215" duration="2451000" />
     </task>
     <servers />
   </component>
@@ -265,10 +265,10 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state width="1815" height="373" key="GridCell.Tab.0.right/62.0.1858.1080@62.0.1858.1080" timestamp="1591612800900" />
-    <state x="492" y="182" key="SettingsEditor" timestamp="1591688207818">
+    <state x="492" y="182" key="SettingsEditor" timestamp="1592961989427">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="492" y="182" key="SettingsEditor/62.0.1858.1080@62.0.1858.1080" timestamp="1591688207818" />
+    <state x="492" y="182" key="SettingsEditor/62.0.1858.1080@62.0.1858.1080" timestamp="1592961989427" />
     <state x="125" y="273" key="Vcs.Push.Dialog.v2" timestamp="1592961734752">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
@@ -293,6 +293,10 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="437" y="327" width="1674" height="896" key="dock-window-2/62.0.1858.1080@62.0.1858.1080" timestamp="1591601663995" />
+    <state x="227" y="331" key="git4idea.merge.GitPullDialog" timestamp="1592961979537">
+      <screen x="62" y="0" width="1858" height="1080" />
+    </state>
+    <state x="227" y="331" key="git4idea.merge.GitPullDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1592961979537" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Django_projects$urls.coverage" NAME="urls Coverage Results" MODIFIED="1591175228101" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/bysms/sales" />
