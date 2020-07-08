@@ -2,13 +2,13 @@
 # author = 王瑞
 import json
 from django.http import JsonResponse
-from ..sales.models import *
+from sales.models import *
 
 
 def dispather(request):
     # 将请求参数放入request的params属性中，根据请求方式获得属性
     if request.method == 'GET':
-        request.params = request.method
+        request.params = request.GET
 
     elif request.method in ['POST', 'PUT', 'DELETE']:
         request.params = json.loads(request.body)
