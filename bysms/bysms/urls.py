@@ -15,9 +15,11 @@ Including another URLconf
 """
 from django.contrib import admin
 from django.urls import path, include
+from django.conf.urls.static import static
 
 urlpatterns = [
-    path('admin/', admin.site.urls),
-    path('sales/', include('sales.urls')),
-    path('mgr/', include('mgr.urls'))
-]
+                  path('admin/', admin.site.urls),
+                  path('sales/', include('sales.urls')),
+                  path('api/mgr/', include('mgr.urls')),
+              ] + static('/', document_root='templates/z_dist')
+
