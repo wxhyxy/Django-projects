@@ -8,6 +8,6 @@ from .sign_in_out import *
 
 urlpatterns = [
     url('customer', dispather),
-    url('signin', sigin),
+    url('signin', signin),
     url('signout', signout)
 ]

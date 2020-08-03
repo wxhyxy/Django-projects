@@ -13,6 +13,20 @@ def dispather(request):
     elif request.method in ['POST', 'PUT', 'DELETE']:
         request.params = json.loads(request.body)
 
+    if 'usertype' not in request.session:
+        return JsonResponse({
+            'ret': 302,
+            'msg': '未登录',
+            'redirect': '/templates/mgr/sign.html'},
+            status=302)
+
+    if request.session['usertype'] != 'mgr':
+        return JsonResponse({
+            'ret': 302,
+            'msg': '用户非mgr类型',
+            'redirect': '/templates/mgr/sign.html'},
+            status=302)
+
     # 根据action来对函数进行处理
     action = request.params['action']
     if action == 'list_customer':
@@ -92,4 +106,3 @@ def deletecustomer(request):
     customer.delete()
 
     return JsonResponse({'reg': 0})
-

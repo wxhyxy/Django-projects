@@ -6,17 +6,18 @@ from django.http import JsonResponse
 from django.contrib.auth import login, logout, authenticate
 
 
-def sigin(request):
+def signin(request):
     userName = request.POST.get('username')
     passWord = request.POST.get('password')
 
     # 连接Django数据库校验
-    user = authenticate(username=userName, passWord=passWord)
+    user = authenticate(username=userName, password=passWord)
 
     if user is not None:
         if user.is_active:
             if user.is_superuser:
                 login(request, user)
+                # session中存入用户类型
                 request.session['usertype'] = 'mgr'
 
                 return JsonResponse({'ret': 0})
@@ -31,3 +32,4 @@ def sigin(request):
 def signout(request):
     logout(request)
     return JsonResponse({'ret': 0})
+
