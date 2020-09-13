@@ -2,7 +2,7 @@
 # author = 王瑞
 import json
 from django.http import JsonResponse
-from sales.models import *
+from common.models import *
 
 
 def dispather(request):
@@ -17,14 +17,14 @@ def dispather(request):
         return JsonResponse({
             'ret': 302,
             'msg': '未登录',
-            'redirect': '/templates/mgr/sign.html'},
+            'redirect': '/mgr/sign.html'},
             status=302)
 
     if request.session['usertype'] != 'mgr':
         return JsonResponse({
             'ret': 302,
             'msg': '用户非mgr类型',
-            'redirect': '/templates/mgr/sign.html'},
+            'redirect': '/mgr/sign.html'},
             status=302)
 
     # 根据action来对函数进行处理

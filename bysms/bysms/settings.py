@@ -25,7 +25,7 @@ SECRET_KEY = '!a@!dnd0j3t4zum9_pi67h5p=9&^@x3!4j=0c3cmt!$5wjoc%g'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', '192.168.1.42',  '0.0.0.0']
 
 # Application definition
 
@@ -38,6 +38,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'sales',
     'mgr',
+    'common'
 ]
 
 MIDDLEWARE = [

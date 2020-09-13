@@ -5,9 +5,12 @@ from django.conf.urls import url
 from .views import *
 from .customer import *
 from .sign_in_out import *
+from .order import *
 
 urlpatterns = [
     url('customer', dispather),
     url('signin', signin),
-    url('signout', signout)
+    url('signout', signout),
+
+    url('order', dispatcher)
 ]
