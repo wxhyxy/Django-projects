@@ -2,28 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="54c3ece0-768a-4add-bfcd-e0507c4deb3a" name="默认更改列表" comment="">
-      <change afterPath="$PROJECT_DIR$/bysms/common/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bysms/common/admin.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bysms/common/apps.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bysms/common/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bysms/common/migrations/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bysms/common/models.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bysms/common/tests.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bysms/common/views.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bysms/mgr/medicine.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bysms/sales/migrations/0002_auto_20200806_1606.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/bysms/sales/migrations/0003_auto_20200806_1628.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/123.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/321.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/bysms/bysms/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/bysms/bysms/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bysms/mgr/customer.py" beforeDir="false" afterPath="$PROJECT_DIR$/bysms/mgr/customer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bysms/mgr/order.py" beforeDir="false" afterPath="$PROJECT_DIR$/bysms/mgr/order.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bysms/mgr/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/bysms/mgr/urls.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bysms/sales/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/bysms/sales/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bysms/sales/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/bysms/sales/models.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/debug.log" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -221,7 +200,7 @@
       <workItem from="1598143273862" duration="1275000" />
       <workItem from="1598595266231" duration="6180000" />
       <workItem from="1599541655479" duration="2614000" />
-      <workItem from="1599964318822" duration="2397000" />
+      <workItem from="1599964318822" duration="7247000" />
     </task>
     <servers />
   </component>
