@@ -48,3 +48,6 @@ def dispatcher(request):
             'ret': 1,
             'msg': '不支持该类型http请求'
         })
+
+def addorder(request):
+    info = request.params['data']
