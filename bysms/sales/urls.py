@@ -8,5 +8,6 @@ urlpatterns = [
     # url('', index),
     url('customer/', listcustomer),
     url('customers/', listcustomers),
-    url('customer1/', listcustustomer1)
+    url('customer1/', listcustustomer1),
+    url('index/', url_index)
 ]

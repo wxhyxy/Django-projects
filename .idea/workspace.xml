@@ -182,10 +182,11 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="C:\Users\admin\Desktop\Django-projects" />
+      <recent name="C:\Users\admin\Desktop\Django-projects\bysms\templates\z_dist\mgr" />
       <recent name="C:\Users\admin\Desktop\Django-projects\bysms\templates\z_dist" />
-      <recent name="C:\Users\admin\Desktop\Django-projects\bysms" />
       <recent name="C:\Users\admin\Desktop\Django-projects\bysms\templates" />
+      <recent name="C:\Users\admin\Desktop\Django-projects" />
+      <recent name="C:\Users\admin\Desktop\Django-projects\bysms" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\admin\Desktop\Django-projects\bysms\templates" />
@@ -324,7 +325,8 @@
       <workItem from="1598595266231" duration="6180000" />
       <workItem from="1599541655479" duration="2614000" />
       <workItem from="1599964318822" duration="14350000" />
-      <workItem from="1600052160965" duration="4936000" />
+      <workItem from="1600052160965" duration="5704000" />
+      <workItem from="1600391256958" duration="3687000" />
     </task>
     <servers />
   </component>
@@ -386,10 +388,10 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="125" y="273" key="Vcs.Push.Dialog.v2/62.0.1858.1080@62.0.1858.1080" timestamp="1592961734752" />
-    <state x="689" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1600052160927">
+    <state x="689" y="364" key="com.intellij.ide.util.TipDialog" timestamp="1600570652970">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
-    <state x="689" y="364" key="com.intellij.ide.util.TipDialog/62.0.1858.1080/-1600.182.1600.900@62.0.1858.1080" timestamp="1600052160927" />
+    <state x="689" y="364" key="com.intellij.ide.util.TipDialog/62.0.1858.1080/-1600.182.1600.900@62.0.1858.1080" timestamp="1600570652970" />
     <state x="689" y="364" key="com.intellij.ide.util.TipDialog/62.0.1858.1080@62.0.1858.1080" timestamp="1596072744201" />
     <state x="696" y="364" key="com.intellij.ide.util.TipDialog/72.0.1848.1080@72.0.1848.1080" timestamp="1596700161844" />
     <state x="247" y="158" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1595928572951">
@@ -400,18 +402,6 @@
       <screen x="62" y="0" width="1858" height="1080" />
     </state>
     <state x="783" y="457" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/62.0.1858.1080@62.0.1858.1080" timestamp="1595928545207" />
-    <state x="542" y="276" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1591759553211">
-      <screen x="62" y="0" width="1858" height="1080" />
-    </state>
-    <state x="542" y="276" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/62.0.1858.1080@62.0.1858.1080" timestamp="1591759553211" />
-    <state x="154" y="92" width="1674" height="896" key="dock-window-1" timestamp="1591601663994">
-      <screen x="62" y="0" width="1858" height="1080" />
-    </state>
-    <state x="154" y="92" width="1674" height="896" key="dock-window-1/62.0.1858.1080@62.0.1858.1080" timestamp="1591601663994" />
-    <state x="437" y="327" width="1674" height="896" key="dock-window-2" timestamp="1591601663995">
-      <screen x="62" y="0" width="1858" height="1080" />
-    </state>
-    <state x="437" y="327" width="1674" height="896" key="dock-window-2/62.0.1858.1080@62.0.1858.1080" timestamp="1591601663995" />
     <state x="227" y="331" key="git4idea.merge.GitPullDialog" timestamp="1600067649936">
       <screen x="62" y="0" width="1858" height="1080" />
     </state>

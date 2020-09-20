@@ -111,3 +111,8 @@ def listcustustomer1(request):
         qs = qs.filter(user_phone=ph)
 
     return render(request, 'index.html', context={'title': '首页', 'qs': qs})
+
+
+# 抽奖环节
+def url_index(request):
+    return render(request, 'index1.html')
